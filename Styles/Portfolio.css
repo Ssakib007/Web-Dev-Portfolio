@@ -6,11 +6,27 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    
+}
+
+.background-color{
+    background-color: #FFF8F3;
 }
 
 /* text color */
 .dark-2{
 color: #474747;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #161616;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 
 /* button */
@@ -42,6 +58,9 @@ color: #474747;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat:no-repeat;
     background-position: top left, bottom right;
+    max-width: 1600px;
+    margin: 0 auto;
+    
 }
 
 /* nav styles */
@@ -107,6 +126,75 @@ nav ul li a{
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* main */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto
+}
+
+
+
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+    
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 18px;
+    color: #757575;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills{
+    text-align: center;
+    padding: 60px 140px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 20px;
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+    
+}
+
+.skill{
+    padding: 20px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 
 
