@@ -1,3 +1,16 @@
+/* Applying Red borders in
+ * every possible html elements
+ */
+
+* { 
+	/* border: 1px solid red; */
+}
+
+/* Applying Blue border in body */
+body {
+	/* border: 2px dashed blue; */
+}
+
 /* font */
 
 .open-sans-font{
